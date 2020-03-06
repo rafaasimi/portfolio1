@@ -11,7 +11,7 @@ Available in: :earth_americas: https://rafaasimi.github.io/
 
 ## Sections
 - [X] Home :white_check_mark:
-- [ ] Profile- :soon: developing
+- [ ] About- :soon: developing
 - [ ] Skills - :soon: developing
 - [ ] Portfolio - :soon: developing
 - [ ] Contact - :soon: developing
