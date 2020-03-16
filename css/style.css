@@ -42,13 +42,22 @@ li {
 	color: #FFF;
 }
 
-.title {
-	font-family: 'Montserrat', sans-serif;
-}
-
 .container {
 	max-width: 960px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+.subtitle {
+	font-size: 1.125em;
+	margin-bottom: 15px;
 }
 
 /* Header */
@@ -156,6 +165,85 @@ li {
 	color: #FFF;
 	right: 50%;
 	left: 50%;
+}
+
+/* About */
+
+.about {
+	margin: 0 10px;
+}
+
+.about-items {
+	position: relative;
+	display: table;
+	margin: 0 auto;
+}
+
+.about-items span {
+	font-weight: bold;
+}
+
+.about-items i {
+	color: #757575;
+	float: left;
+}
+
+.about-items-1 {
+	width: 300px;
+	float: left;
+	margin-top: 15px;
+	text-align: start;
+}
+
+.about-items-1 i {
+	width: 30px;
+	text-align: center;
+}
+
+.about-items-2 {
+	width: 300px;
+	margin-top: 15px;
+	overflow: hidden;
+	text-align: start;
+}
+
+.about-items-2 i {
+	width: 30px;
+	text-align: center;
+}
+
+/* Services */
+
+.services {
+	text-align: center;
+	background: #e5e5e5;
+}
+
+.services h1 {
+	display: inline-block;
+	margin-top: 60px;
+}
+
+.services p {
+	display: inline-block;
+	margin-bottom: 60px;
+}
+
+/* Contact */
+
+.contact {
+	text-align: center;
+	background: #e5e5e5;
+}
+
+.contact h1 {
+	display: inline-block;
+	margin-top: 60px;
+}
+
+.contact p {
+	display: inline-block;
+	margin-bottom: 60px;
 }
 
 /* Footer */
