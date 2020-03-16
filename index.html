@@ -6,68 +6,79 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="The portfolio of Rafael Simionato, an Brazilian Web Developer.">
-    <meta name="keywords" content="rafael, simionato, rafael simionato, web design, graphic design, websites, graphics, freelance, web developer" />
+    <meta name="keywords"
+        content="rafael, simionato, rafael simionato, web design, graphic design, websites, graphics, freelance, web developer" />
     <link rel="shortcut icon" href="img/favicon.ico" />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/animated.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/19be07c20d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="menu">
-        <ul class="menu-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <header class="cabecalho" id="home">
-        <div class="cabecalho-overlay">
-            <div class="cabecalho-text">
+    <!-- MAIN HEADER -->
+    <main class="main" id="home">
+        <div class="main-content">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <header class="main-header">
                 <img src="img/avatar2.png">
-                <h1 class="title">Hi! I'm Rafael Simionato</h1>
-                <h2>Web Developer & Web Designer</h2>
-            </div>
-        </div>
-    </header>
+                <h2>Hi! I'm Rafael Simionato</h2>
+                <h3>Web Developer & Web Designer</h3>
+            </header>
 
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-me">
-                <h1>About Me</h1>
-                <h2>Web Developer & Web Designer</h2>
-                <p>I'm a web developer and web designer in Araras, São Paulo. <br>I have a passion for web front-end and
-                    love to create for web and mobile devices.</p>
-            </div>
-            <div class="skills">
-                <h1 class="title">Skills & Tools</h1>
-                <h2>Know my abilities</h2>
-                    <div class="skills-icons"><i class="fab fa-html5"></i></div>
-                    <div class="skills-icons"><i class="fab fa-css3-alt"></i></div>
-                    <div class="skills-icons"><i class="fab fa-bootstrap"></i></div>
-                    <div class="skills-icons"><i class="fab fa-github"></i></div>
-                </div>
-            </div>
+                <a href="#about" class="arrow-icon"><i class="fas fa-angle-double-down animated infinite bounce slow"></i></a>
+
         </div>
+    </main>
+
+    <!-- ABOUT -->
+    <section class="container" id="about">
+        <h1>About Me</h1>
+        <h2>Web Developer & Web Designer</h2>
+        <p>I'm a web developer and web designer in Araras, São Paulo. <br>I have a passion for web front-end and
+            love to create for web and mobile devices.</p>
+
+        <div>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="button">
+            <a href="assets/Rafael_Simionato-CV.pdf" target="_blank">
+                <p>Download CV</p>
+            </a>
+        </div>
+
     </section>
-
-    <section class="portfolio"></section>
 
     <footer>
         <div class="sociais">
             <a href="https://www.linkedin.com/in/rafaelzorzenon" target="_blank" alt="LinkedIn"><i
                     class="fab fa-linkedin"></i></a>
-            <a href="https://www.github.com/rafaasimi" target="_blank" alt="Github"><i class="fab fa-github-square"></i></a>
-            <a href="https://www.facebook.com/rafaasimi" target="_blank" alt="Facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/rafaasimi" target="_blank" alt="Instagram" ><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.github.com/rafaasimi" target="_blank" alt="Github"><i
+                    class="fab fa-github-square"></i></a>
+            <a href="https://www.facebook.com/rafaasimi" target="_blank" alt="Facebook"><i
+                    class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/rafaasimi" target="_blank" alt="Instagram"><i
+                    class="fab fa-instagram-square"></i></a>
         </div>
         <div class="copyright">
-            <p>Copyright &copy; 2020 - Made with <i class="fas fa-heart"></i> by <a href="#home">Rafael Simionato.</a></p>
+            <p>Copyright &copy; 2020 - Made with <i class="fas fa-heart"></i> by <a href="#home">Rafael Simionato.</a>
+            </p>
         </div>
     </footer>
 </body>
