@@ -11,10 +11,10 @@ Available in: :earth_americas: https://rafaasimi.github.io/
 
 ## Sections
 - [X] Home - :white_check_mark:
-- [ ] About - :soon: developing
+- [X] About - :white_check_mark:
 - [ ] Services - :soon: developing
 - [ ] Portfolio - :soon: developing
-- [ ] Contact - :soon: developing
+- [X] Contact - :white_check_mark:
 - [X] Footer - :white_check_mark:
 
 ## Layout
