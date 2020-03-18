@@ -244,12 +244,12 @@ li {
 
 .services-items ul li {
 	display: inline-block;
-	max-width: 297px;
+	width: 297px;
+	height: 190px;
 	margin: 10px 10px;
 	background: #FFF;
 	border: #c5c5c5 solid 1px;
 	border-radius: 3px;
-	margin: a;
 }
 
 .services-items ul li:last-child {
@@ -293,6 +293,9 @@ li {
 .contact p a {
 	font-weight: bold;
 }
+
+/* Filtering */
+
 
 /* Footer */
 
