@@ -24,7 +24,7 @@ a {
 
 /* Standard */
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6, p, li, q{
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin: 0;
@@ -153,6 +153,11 @@ li {
 	border-radius: 4px;
 	margin-top: 60px;
 	margin-bottom: 60px;
+	transition: 0.3s;
+}
+
+.button:hover {
+	background: #325d70;
 }
 
 .button p {
@@ -273,6 +278,30 @@ li {
 	margin-top: 60px;
 }
 
+/* Quotes */
+.quotes {
+	min-width: 100%;
+	max-height: 300px;
+	background-image: url(/img/bg_quotes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.quotes div {
+	text-align: center;
+	line-height: 300px;
+	color: #FFF;
+}
+
+.quotes .container q {
+	font-size: 1.125em;
+}
+
+.quotes .container i {
+	font-size: 2em;
+}
+
+
 /* Contact */
 
 .contact {
@@ -293,9 +322,6 @@ li {
 .contact p a {
 	font-weight: bold;
 }
-
-/* Filtering */
-
 
 /* Footer */
 
