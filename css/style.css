@@ -1,6 +1,6 @@
 /* RESET */
 
-body, p, h1, h2, ul, li {
+body, p, h1, h2, ul, li, q, cite {
 	margin: 0px;
 	padding: 0px;
 }
@@ -24,7 +24,7 @@ a {
 
 /* Standard */
 
-h1, h2, h3, h4, h5, h6, p, li, q{
+h1, h2, h3, h4, h5, h6, p, li, q, cite{
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin: 0;
@@ -278,27 +278,29 @@ li {
 	margin-top: 60px;
 }
 
+
 /* Quotes */
 .quotes {
-	min-width: 100%;
-	max-height: 300px;
+	display: block;
+	max-width: 100%;
 	background-image: url(/img/bg_quotes.jpg);
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
-.quotes div {
-	text-align: center;
-	line-height: 300px;
+.quotes q {
+	display: inline-block;
+	margin-top: 60px;
+	font-size: 2em;
 	color: #FFF;
 }
 
-.quotes .container q {
-	font-size: 1.125em;
-}
-
-.quotes .container i {
-	font-size: 2em;
+.quotes cite {
+	display: inline-block;
+	font-size: 1em;
+	color: #FFF;
+	font-style: italic;
+	margin-bottom: 60px;
 }
 
 
