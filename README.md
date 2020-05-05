@@ -1,9 +1,9 @@
 # Personal Portfolio
 
 ## Description
-Personal Portfolio created to show my skills and my latest work.
+First layout created for my personal portfolio.
 
-Available in: :earth_americas: https://rafaasimi.github.io/
+A new layout is available at:: :earth_americas: https://rafaasimi.github.io/
 
 ## Languages
 - HTML5
