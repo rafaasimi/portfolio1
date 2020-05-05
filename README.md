@@ -3,7 +3,7 @@
 ## Description
 First layout created for my personal portfolio.
 
-A new layout is available at:: :earth_americas: https://rafaasimi.github.io/
+A new layout is available at: :earth_americas: https://rafaasimi.github.io/
 
 ## Languages
 - HTML5
@@ -19,4 +19,4 @@ A new layout is available at:: :earth_americas: https://rafaasimi.github.io/
 - [X] Footer - :white_check_mark:
 
 ## Layout
-![Layout Rafael Simionato](https://raw.githubusercontent.com/rafaasimi/rafaasimi.github.io/master/img/layout.png)
+![Layout Rafael Simionato](https://raw.githubusercontent.com/rafaasimi/portfolio1/master/img/layout.png)
